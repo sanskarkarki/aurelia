@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" width="1600" height="650">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b8924a"/>
+      <stop offset="50%" stop-color="#e2c47a"/>
+      <stop offset="100%" stop-color="#b8924a"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Transparent background -->
+
+  <!-- Main wordmark -->
+  <text x="800" y="285"
+        text-anchor="middle"
+        font-family="Cormorant Garamond, Didot, Bodoni 72, Georgia, serif"
+        font-size="190"
+        font-weight="500"
+        letter-spacing="34"
+        fill="#F5F0E8">
+    AURELIA
+  </text>
+
+  <!-- Decorative divider -->
+  <g filter="url(#softGlow)" stroke="url(#gold)" fill="none" stroke-width="3">
+    <line x1="355" y1="365" x2="735" y2="365"/>
+    <line x1="865" y1="365" x2="1245" y2="365"/>
+  </g>
+
+  <!-- Central botanical mark -->
+  <g transform="translate(800 365)" stroke="#D6B66A" fill="none" stroke-width="2.5">
+    <path d="M-55 8 C-28 -18,-10 -23,0 0 C10 -23,28 -18,55 8"/>
+    <path d="M-50 8 C-31 4,-15 -3,0 -18 C15 -3,31 4,50 8"/>
+    <path d="M0 -18 C-3 -4,-3 7,0 20 C3 7,3 -4,0 -18"/>
+    <path d="M-20 -10 C-32 -25,-44 -27,-52 -22 C-42 -10,-31 -5,-20 -10"/>
+    <path d="M20 -10 C32 -25,44 -27,52 -22 C42 -10,31 -5,20 -10"/>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="800" y="450"
+        text-anchor="middle"
+        font-family="Raleway, Montserrat, Arial, sans-serif"
+        font-size="28"
+        font-weight="500"
+        letter-spacing="18"
+        fill="#D7D0C4">
+    KITCHEN &amp; DINING
+  </text>
+</svg>

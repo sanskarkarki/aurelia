@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f4f1ea">
+<title>AURELIA — Modern Dining</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="page">
+
+  <div class="announcement">
+    <div class="container announcement-inner">
+      <span>Fresh ingredients. Thoughtful cooking. Memorable moments.</span>
+      <a href="#reservation">Reserve a table <span>↗</span></a>
+    </div>
+  </div>
+
+  <header class="site-header" id="home">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="AURELIA home">
+        <img src="./icons/logo.svg" alt="AURELIA">
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#story">Our Story</a>
+        <a href="#experience">Experience</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="#reservation">Book a Table <span>↗</span></a>
+      <button class="menu-toggle" aria-label="Open menu"><span></span><span></span></button>
+    </div>
+    <div class="mobile-nav">
+      <a href="#home">Home</a><a href="#menu">Menu</a><a href="#story">Our Story</a>
+      <a href="#experience">Experience</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image"><img src="./images/hero.png" alt="Fresh food prepared with care"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="eyebrow light">A modern take on fresh dining</div>
+        <h1>Good food.<br><em>Beautifully</em> served.</h1>
+        <p>Seasonal ingredients, honest flavours and a dining experience designed to make you stay a little longer.</p>
+        <div class="hero-actions">
+          <a class="btn btn-light" href="#menu">Explore our menu <span>↗</span></a>
+          <a class="text-link light" href="#story">Discover our story <span>→</span></a>
+        </div>
+      </div>
+      <div class="hero-bottom">
+        <div class="container hero-meta">
+          <span>Open today · 11:00 AM — 11:00 PM</span>
+          <span>Kathmandu · Nepal</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro section-pad" id="story">
+      <div class="container split">
+        <div class="section-label">01 — Our story</div>
+        <div class="intro-copy">
+          <h2>Simple ingredients.<br><em>Extraordinary</em> attention.</h2>
+          <p>We believe the best meals don't need to be complicated. Fresh produce, carefully sourced ingredients and a kitchen that cares about every detail come together on every plate.</p>
+          <a class="text-link dark" href="#experience">More about AURELIA <span>→</span></a>
+        </div>
+        <div class="intro-image"><img src="./images/yogurt.png" alt="AURELIA dish"></div>
+      </div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-label">02 — From the kitchen</div>
+            <h2>Signature <em>plates</em></h2>
+          </div>
+          <a class="text-link dark" href="#reservation">View full menu <span>↗</span></a>
+        </div>
+        <div class="food-grid">
+          <article class="dish"><div class="dish-image"><img src="./images/plate-1.png" alt="Summer Salad"></div><div class="dish-info"><div><span class="dish-no">01</span><h3>Summer Salad</h3></div><strong>$12.50</strong></div><p>Bright seasonal greens, crisp vegetables and a delicate house dressing.</p></article>
+          <article class="dish"><div class="dish-image"><img src="./images/plate-2.png" alt="Russian Salad"></div><div class="dish-info"><div><span class="dish-no">02</span><h3>Russian Salad</h3></div><strong>$14.00</strong></div><p>Classic comfort with our fresh, contemporary kitchen touch.</p></article>
+          <article class="dish"><div class="dish-image"><img src="./images/plate-3.png" alt="Greek Salad"></div><div class="dish-info"><div><span class="dish-no">03</span><h3>Greek Salad</h3></div><strong>$13.50</strong></div><p>Garden vegetables, herbs and creamy textures balanced with citrus.</p></article>
+          <article class="dish"><div class="dish-image"><img src="./images/plate-3.png" alt="Cottage Pie"></div><div class="dish-info"><div><span class="dish-no">04</span><h3>Cottage Pie</h3></div><strong>$16.00</strong></div><p>Rich savoury filling beneath a golden, comforting potato crust.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature" id="experience">
+      <div class="feature-image"><img src="./images/food-table.jpg" alt="Dining table"></div>
+      <div class="feature-copy">
+        <div class="section-label">03 — The experience</div>
+        <h2>A table made<br>for <em>good moments.</em></h2>
+        <p>From a quiet lunch to a long evening with friends, every corner of AURELIA is designed around one thing: making great food feel even better.</p>
+        <div class="feature-list">
+          <div><span>01</span><strong>Seasonal ingredients</strong><small>Picked for flavour, not just appearance.</small></div>
+          <div><span>02</span><strong>Warm hospitality</strong><small>Relaxed service without the fuss.</small></div>
+          <div><span>03</span><strong>Made to remember</strong><small>Thoughtful details from first bite to last.</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="special section-pad">
+      <div class="container special-grid">
+        <div>
+          <div class="section-label">04 — Chef's special</div>
+          <h2>Something<br><em>worth waiting for.</em></h2>
+          <p>Our weekly special changes with the market. Ask our team what the kitchen is excited about today.</p>
+          <a class="btn btn-dark" href="#reservation">Ask about today's special <span>↗</span></a>
+        </div>
+        <div class="special-image"><img src="./images/vegies.png" alt="Chef's special ingredients"></div>
+      </div>
+    </section>
+
+    <section class="gallery section-pad" id="gallery">
+      <div class="container">
+        <div class="section-head">
+          <div><div class="section-label">05 — Inside AURELIA
+
+          </div><h2>A glimpse <em>inside.</em></h2></div>
+          <span class="gallery-note">Food · People · Moments</span>
+        </div>
+        <div class="gallery-grid">
+          <img src="./images/salad-table.jpg" alt="Fresh salad on a table">
+          <img src="./images/coffee.jpg" alt="Coffee">
+          <img src="./images/donut.jpg" alt="Fresh dessert">
+          <img src="./images/jars.jpg" alt="Ingredients">
+          <img src="./images/food-table.jpg" alt="Restaurant table">
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation" id="reservation">
+      <div class="container reservation-inner">
+        <div><div class="section-label">06 — Your table awaits</div><h2>Make an<br><em>evening of it.</em></h2><p>Join us for dinner, a celebration or simply because today deserves a good meal.</p></div>
+        <form class="booking-form" id="bookingForm">
+          <label>Name<input required type="text" placeholder="Your name"></label>
+          <label>Guests<select><option>2 guests</option><option>3 guests</option><option>4 guests</option><option>5+ guests</option></select></label>
+          <label>Date<input required type="date"></label>
+          <label>Time<select><option>7:00 PM</option><option>7:30 PM</option><option>8:00 PM</option><option>8:30 PM</option></select></label>
+          <button class="btn btn-light form-submit" type="submit">Request reservation <span>↗</span></button>
+          <p class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container footer-top">
+      <div class="footer-brand"><img src="./icons/logo.svg" alt="AURELIA"><p>Fresh ingredients. Thoughtful cooking. A place to slow down.</p></div>
+      <div><span class="footer-title">Visit</span><p>Thamel, Kathmandu<br>Nepal</p></div>
+      <div><span class="footer-title">Hours</span><p>Mon — Sun<br>11:00 AM — 11:00 PM</p></div>
+      <div><span class="footer-title">Say hello</span><p><a href="tel:+977123456789">+977 123 456 789</a><br><a href="mailto:hello@aurelia.com">hello@aurelia.com</a></p></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 AURELIA. All rights reserved.</span></div>
+  </footer>
+</div>
+<script src="./js/app.js"></script>
+</body>
+</html>
